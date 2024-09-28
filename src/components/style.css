@@ -1,0 +1,276 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+  background-color: black;
+}
+
+.nav{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-direction: row;
+/* background-attachment: fixed; */
+background-color: rgb(0, 0, 0 , 0.80 ) ;
+height: 120px;
+border-radius: 0 0 4px 4px;
+padding-right: 40px;
+gap: 250px;
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 10;
+box-sizing: border-box;
+}
+
+.iconsp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    list-style-type: none;
+    position: relative;
+
+
+}
+
+.texto{
+font-size: 1.3em;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: "Roboto", sans-serif;
+
+}
+
+
+/* 
+#anim1::after{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+#anim1:hover::after{
+    width: 100%;
+}
+     */
+     .Lista a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        width: 120px;
+        transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out; /* Incluindo a transformação no hover */
+    }
+    
+    .Lista a:hover {
+        background-color: rgba(255, 34, 34, 0.742);
+        
+    }
+
+    .texto2{
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .iconsp2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: row;
+        gap: 80px;
+        padding-right: 20px;
+        list-style-type: none;
+    }
+
+   #cadastro{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+
+}
+
+   #entrar{
+    color:white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: red;
+    align-items: center;
+   }
+
+   #cadastro:hover{
+    text-decoration: underline;
+
+   }
+
+   #entrar:hover{
+    text-decoration: underline;
+
+   }
+
+   .logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
+   }
+
+   .img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+   }
+
+
+
+   .conteudo{
+    background-image: url('img/backorigi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 550px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+   }
+
+
+    .textos{
+        padding-left: 40px;
+        padding-top: 180px;
+    }
+  
+
+
+   .textomain{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+
+.subtexto{
+    color: red;
+    font-size: 2.5em;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;   
+    justify-content: center;
+    padding-top: 5px;
+    letter-spacing: 2px;
+
+}
+
+.sloganmain{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    padding-top: 5px;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 40px;
+    padding-left: 80px;
+
+}
+
+#btn-cadastro{
+    width: 140px;
+    height: 50px;
+    background-color: #626262;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto' , sans-serif;
+    border: none;
+    font-size: 1em;
+    
+}
+
+#btn-entrar{
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    border-radius: 10px;
+    font-size: 1em;
+    border: none;
+
+}
+
+#btn-cadastro:active{
+    border: solid;
+}
+
+#btn-cadastro:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+#btn-entrar:hover{
+color: red;
+background-color: white;
+transition: 0.5s ease-in-out;
+}
+
+
+
+#btn-entrar:active{
+    border: solid;
+}
+
+.article{
+    display: flex;
+    flex: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+.artigos{
+    background-color: rgb(184, 184, 184);
+    width: 350px;
+    height: 330px;
+    padding-top: 30px;
+
+}
